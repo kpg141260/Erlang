@@ -1,3 +1,27 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "cSpell.ignoreWords": [
+        "abnt",
+        "adandon",
+        "barendse",
+        "bolte",
+        "engset",
+        "erlangs",
+        "eval",
+        "fract",
+        "gossler",
+        "jørn",
+        "lodahl",
+        "maxitrn",
+        "myerror",
+        "noagents",
+        "numpy",
+        "pathxtend",
+        "qsize",
+        "qtime",
+        "sngcnt",
+        "stime",
+        "utilisation",
+        "xagent"
+    ]
 }
