@@ -1,10 +1,10 @@
-# Erlang for Python
+# Erlang C for Python
 
 This Erlang Python Library was created to enable Erlang based contact center forecasting using Python.
 
 # Table of Contents
-1. [What is Erlang](#what-is-erlang)
-2. [Overview](#overview)
+1. [Erlang C Definition](#definition-of-erlang-c)
+2. [Library Overview](#library-overview)
 3. [Classes](#classes)
 4. [Erlang Base Class](#erlang-base-class)
   1. [MinMax Method](#minmax)
@@ -33,11 +33,17 @@ This Erlang Python Library was created to enable Erlang based contact center for
   22. [Trunks](#trunks)
   23. [Utilisation](#utilisation)
 
-## What is Erlang
+# Definition of Erlang C
 
-Erlang C is a proven method or formula to successfully predict call center load. The Erlang C formula calculates based on basic information (like the expected number of incidents) how many service representatives (or agents) are needed to meet your desired service level. Erlang C is the standard in the contact center industry.
+Erlang C is a telephony traffic concept that can be used in call center management. It is based on the concept of an Erlang, a virtual unit of telephony that represents a certain workload on a system. In many uses, “Erlang” refers to a metric involving call minutes.
 
-## Overview
+Erlang C is a proven method or formula to successfully predict call center load and can be used in call center management. The Erlang C formula calculates based on basic information (like the expected number of incidents) how many service representatives (or agents) are needed to meet your desired service level. It is based on the concept of an Erlang, a virtual unit of telephony that represents a certain workload on a system. In many uses, “Erlang” refers to a metric involving call minutes. Erlang C is the standard in the contact center industry.
+
+In Erlang C, planners calculate three factors. One is the number of lines available to intake calls, which are staffed by call-center operators. Another is the number of callers waiting for service. The third piece of the equation is the average time to serve every caller.
+
+Erlang C can be instructive in large-scale call centers and in other virtual telephony environments. Different types of call handling software can deal with delays such as busy signals and dropped calls. Using metrics like Erlang C, call center managers can make these operations as efficient as possible, which can be a big and important part of serving inbound callers in industries such as telecommunications, retail, government services or any place where service takes place by phone.
+
+# Library Overview
 
 With this Python Class, one can calculate a variety of parameters affecting contact center operations and customer experience. As a general note, Erlang was developed mainly with phone conversations in mind, but to a wide extend can also be used for the same kind of calculations for contact centers that are not phone based, but have channels such as chat, email, social media and messengers. I use transactions where a customer might use any channel, and calls where a customer uses phone.
 Some of the calculations are only relevant for voice contact centers, such as the number of Trunk lines (I will call those out that are only relevant for phone).
@@ -106,7 +112,7 @@ The Erlang Class regards the fact that when using chat or email or other non-voi
 >- **Abandon** defines that a customer contacting the contact center interrupts or abandons the transaction before a server or agent can attend to them. This is typically the case if wait times in a queue are too long.  
 
 
-The methods of the classes are described below. If you want to learn how to use the Erlang library in your Python code please refer to [TBA]
+The methods of the classes are described below. If you want to learn how to use the Erlang library in your Python code please refer to the [How to guide](HOWTO.MD)
 
 ---
 

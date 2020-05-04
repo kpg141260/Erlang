@@ -2,7 +2,7 @@
 
 The Erlang Library can be used to forecast various important metrics in a contact center operation.
 This library is written so that it can be used for both, **voice** and **non-voice** forecasting.
-Voice means phone calls or video calls, whereas non-voice means chat, messenger, email, and other social media channels.
+Voice means phone calls or video calls, whereas non-voice means chat, messenger, email, and other social media channels. [ Go back to the Readme document](README.MD])
 
 ## Why the distinction?
 
@@ -277,3 +277,4 @@ Time   Agents  Utilisation SLA       ASA     Abandoned   Queued    Queue-Time  Q
 22:00   4      41.25%      92.78%    9sec     8.03%       9.95%     94          0
 23:00   3      34.63%      92.36%    11sec    8.35%       9.98%    112          0
 ```
+To go back to the Readme document click [here](README.MD])
